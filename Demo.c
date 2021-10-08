@@ -1,8 +1,7 @@
-# Demo
+LOGIC: Read the given input string. Check the initial character of the string is numerical or any special character except ‘_’ then print it is not a valid identifier. Otherwise print it as valid identifier if remaining characters of string doesn’t contains any special characters except ‘_’.
 
-## C program to test whether a given identifier is valid or not
+//C program to test whether a given identifier is valid or not
 
-```c
 #include <stdio.h>
 
 #include <conio.h>
@@ -53,4 +52,15 @@ void main()
 
     getch();
 }
-```
+
+
+
+& OUTPUT:
+
+Enter an identifier: first
+
+Valid identifier
+
+Enter an identifier:1aqw
+
+Not a valid identifier
